@@ -2,12 +2,12 @@
 
 [![Version](https://img.shields.io/npm/v/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit) [![Size](https://img.shields.io/bundlephobia/min/@pancakeswap-libs/uikit)](https://www.npmjs.com/package/@pancakeswap-libs/uikit)
 
-Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+Dexrium UIkit is a set of React components and hooks used to build pages on Dexrium's apps. It also contains a theme file for dark and light mode.
 
 
 ### Theme
 
-Before using Pancake UIkit, you need to provide the theme file to styled-component.
+Before using Dexrium UIkit, you need to provide the theme file to styled-component.
 
 ```
 import { ThemeProvider } from 'styled-components'
