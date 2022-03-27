@@ -2424,7 +2424,7 @@ var templateObject_1$R, templateObject_2$s, templateObject_3$b, templateObject_4
 var PriceLink = styled__default['default'].a(templateObject_1$Q || (templateObject_1$Q = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd, _b = _a.color, color = _b === void 0 ? "textSubtle" : _b;
-    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://ico.defiswap.app/", target: "_blank" },
+    return cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://ico.dexrium.exchange/", target: "_blank" },
         React__default['default'].createElement(Icon$1g, { width: "24px", mr: "8px" }),
         React__default['default'].createElement(Text, { color: color, bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -4926,7 +4926,7 @@ var socials = [
           href: "https://discord.gg/",
         },
       ];
-      
+
 __spreadArray([], Array(20)).map(function (_, i) { return ({
     code: "en" + i,
     language: "English" + i,
@@ -5011,7 +5011,7 @@ var MenuItem = function (_a) {
                 React__default['default'].createElement(Flex, { order: [1, null, 2], mb: ["24px", null, "0"], justifyContent: "space-between", alignItems: "center" },
                     React__default['default'].createElement(Box, { mr: "20px" },
                         React__default['default'].createElement(CakePrice$1, { cakePriceUsd: cakePriceUsd, color: darkColors.textSubtle })),
-                    React__default['default'].createElement(Button, { as: "a", href: "https://ico.defiswap.app/", target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$26, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
+                    React__default['default'].createElement(Button, { as: "a", href: "https://ico.dexrium.exchange/", target: "_blank", scale: "sm", endIcon: React__default['default'].createElement(Icon$26, { color: lightColors.backgroundAlt }) }, buyCakeLabel))))));
 };
 
 var MenuItems = function (_a) {
