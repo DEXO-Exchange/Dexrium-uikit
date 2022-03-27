@@ -2086,7 +2086,7 @@ var useOnClickOutside = function (ref, handler) {
             document.removeEventListener("mousedown", listener);
             document.removeEventListener("touchstart", listener);
         };
-    }, 
+    },
     // It's worth noting that because passed in handler is a new ...
     // ... function on every render that will cause this effect ...
     // ... callback/cleanup to run every render. It's not a big deal ...
@@ -3830,7 +3830,7 @@ var sortDataInOrder = function (data, columns) {
 };
 var makeRender = function (
 // eslint-disable-next-line
-value, 
+value,
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 render, row) {
     return render ? function () { return render({ row: row, value: value }); } : function () { return value; };
@@ -4852,17 +4852,17 @@ var BottomNav = function (_a) {
 
 var socials = [
     {
-        label: "Twitter",
-        icon: "Twitter",
-        href: "https://twitter.com/defiswap_app",
+      label: "Twitter",
+      icon: "Twitter",
+      href: "https://twitter.com/DexriumExchange",
     },
     {
-        label: "Telegram",
-        icon: "Telegram",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/DeFiSwap_exchange",
+      label: "Telegram",
+      icon: "Telegram",
+      items: [
+        {
+          label: "English",
+          href: "https://t.me/Dexrium",
             },
             //{
             //  label: "Bahasa Indonesia",
@@ -4912,29 +4912,21 @@ var socials = [
             //  label: "Whale Alert",
             //    href: "https://t.me/PancakeSwapWhales",
             //  },
-        ],
-    },
-    {
-        label: "Reddit",
-        icon: "Reddit",
-        href: "https://www.reddit.com/r/defiswap_exchange/",
-    },
-    {
-        label: "Instagram",
-        icon: "Instagram",
-        href: "https://www.instagram.com/defiswap_exhange/",
-    },
-    {
-        label: "Github",
-        icon: "Github",
-        href: "https://github.com/defiswap_app/",
-    },
-    {
-        label: "Discord",
-        icon: "Discord",
-        href: "https://discord.gg/mM4rNGkd",
-    },
-];
+          ],
+        },
+
+        {
+          label: "Github",
+          icon: "Github",
+          href: "https://github.com/Dexrium",
+        },
+        {
+          label: "Discord",
+          icon: "Discord",
+          href: "https://discord.gg/",
+        },
+      ];
+      
 __spreadArray([], Array(20)).map(function (_, i) { return ({
     code: "en" + i,
     language: "English" + i,
@@ -4987,7 +4979,7 @@ var templateObject_1$8;
 
 var LangSelector = function (_a) {
     var currentLang = _a.currentLang, langs = _a.langs, color = _a.color, setLang = _a.setLang, _b = _a.dropdownPosition, dropdownPosition = _b === void 0 ? "bottom" : _b, _c = _a.buttonScale, buttonScale = _c === void 0 ? "md" : _c, _d = _a.hideLanguage, hideLanguage = _d === void 0 ? false : _d;
-    return (React__default['default'].createElement(Dropdown, { position: dropdownPosition, target: React__default['default'].createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default['default'].createElement(Icon$1m, { color: color, width: "24px" }) }, !hideLanguage && React__default['default'].createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); }, 
+    return (React__default['default'].createElement(Dropdown, { position: dropdownPosition, target: React__default['default'].createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default['default'].createElement(Icon$1m, { color: color, width: "24px" }) }, !hideLanguage && React__default['default'].createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); },
         // Safari fix
         style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
 };

@@ -7,27 +7,19 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.defiswap.app/contact-us",
+        href: "https://docs.dexrium.exchange/contact-us",
       },
       {
         label: "Blog",
-        href: "https://medium.com/@defiswap_exchange",
+        href: "https://medium.com/@dexrium_exchange",
       },
       {
         label: "Community",
-        href: "https://docs.defiswap.app/contact-us/communities",
+        href: "https://docs.dexrium.exchange/contact-us/communities",
       },
       {
-        label: "DeFiSwap Token",
-        href: "https://docs.defiswap.app/tokenomics/defi-token",
-      },
-      {
-        label: "—",
-      },
-      {
-        label: "Online Store",
-        href: "https://shop.defiswap.app/",
-        isHighlighted: true,
+        label: "Dexrium Token",
+        href: "https://docs.dexrium.exchange/tokenomics/defi-token",
       },
     ],
   },
@@ -36,15 +28,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "https://docs.defiswap.app/contact-us/customer-support",
+        href: "https://docs.dexrium.exchange/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "hhttps://docs.defiswap.app/click-here-for-help/troubleshooting-errors",
+        href: "hhttps://docs.dexrium.exchange/click-here-for-help/troubleshooting-errors",
       },
       {
         label: "Guides",
-        href: "https://docs.defiswap.app/",
+        href: "https://docs.dexrium.exchange/",
       },
     ],
   },
@@ -57,19 +49,19 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Documentation",
-        href: "https://docs.defiswap.app/",
+        href: "https://docs.dexrium.exchange/",
       },
       {
         label: "Bug Bounty",
-        href: "https://docs.defiswap.app/developers/bug-bounty",
+        href: "https://docs.dexrium.exchange/developers/bug-bounty",
       },
       {
         label: "Audits",
-        href: "https://docs.defiswap.app/",
+        href: "https://docs.dexrium.exchange/",
       },
       {
         label: "Careers",
-        href: "https://docs.defiswap.app/careers/hiring",
+        href: "https://docs.dexrium.exchange/careers/hiring",
       },
     ],
   },
@@ -79,7 +71,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "Twitter",
-    href: "https://twitter.com/defiswap_app",
+    href: "https://twitter.com/DexriumExchange",
   },
   {
     label: "Telegram",
@@ -87,7 +79,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/DeFiSwap_exchange",
+        href: "https://t.me/Dexrium",
       },
       //{
         //  label: "Bahasa Indonesia",
@@ -139,25 +131,16 @@ export const socials = [
       //  },
     ],
   },
-  {
-    label: "Reddit",
-    icon: "Reddit",
-    href: "https://www.reddit.com/r/defiswap_exchange/",
-  },
-  {
-    label: "Instagram",
-    icon: "Instagram",
-    href: "https://www.instagram.com/defiswap_exhange/",
-  },
+
   {
     label: "Github",
     icon: "Github",
-    href: "https://github.com/defiswap_app/",
+    href: "https://github.com/Dexrium",
   },
   {
     label: "Discord",
     icon: "Discord",
-    href: "https://discord.gg/mM4rNGkd",
+    href: "https://discord.gg/",
   },
 ];
 
