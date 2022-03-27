@@ -4820,7 +4820,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "Twitter",
-        href: "https://twitter.com/defiswap_app",
+        href: "https://twitter.com/DexriumExchange",
     },
     {
         label: "Telegram",
@@ -4828,7 +4828,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/DeFiSwap_exchange",
+                href: "https://t.me/",
             },
             //{
             //  label: "Bahasa Indonesia",
@@ -4881,24 +4881,14 @@ var socials = [
         ],
     },
     {
-        label: "Reddit",
-        icon: "Reddit",
-        href: "https://www.reddit.com/r/defiswap_exchange/",
-    },
-    {
-        label: "Instagram",
-        icon: "Instagram",
-        href: "https://www.instagram.com/defiswap_exhange/",
-    },
-    {
         label: "Github",
         icon: "Github",
-        href: "https://github.com/defiswap_app/",
+        href: "https://github.com/Dexrium",
     },
     {
         label: "Discord",
         icon: "Discord",
-        href: "https://discord.gg/mM4rNGkd",
+        href: "https://discord.gg/",
     },
 ];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
