@@ -790,18 +790,8 @@ var Icon$1h = function (props) {
 
 var Icon$1g = function (props) {
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 110.6 110.6" }, props),
-        React__default['default'].createElement("path", { d: "M75.1 63.7L55.3 83.4 35.6 63.7 24.1 75.1 55.3 106.3 66.7 94.9 66.7 94.9 86.5 75.1z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M19.6 59.4L14 65 19.6 70.6 25.2 65z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M9.9 49.7L4.3 55.3 9.8 60.8 15.4 55.2z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M25.3 45.4L19.7 39.9 14.1 45.5 19.6 51z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M29.4 60.8L35 55.2 29.5 49.7 23.9 55.3z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M85.3 65.2L90.9 70.8 96.5 65.2 90.9 59.6z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M75.6 55.5L81.1 61 86.7 55.4 81.2 49.9z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M90.9 51.2L96.5 45.6 91 40.1 85.4 45.7z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M100.8 49.8L95.2 55.4 100.7 61 106.3 55.4z", fill: "#00DF00" }),
-        React__default['default'].createElement("path", { d: "M75.1 46.8L55.3 27 35.6 46.8 24.1 35.4 55.3 4.2 66.7 15.6 66.7 15.6 86.5 35.4z", fill: "#00DF00" }),
         React__default['default'].createElement("g", null,
-            React__default['default'].createElement("path", { d: "M42.9 51.9l5.9-1.6v12.2h9.3c1.8 0 3.1-1 4.1-3 .6-1.3.9-2.7.9-4.3 0-2.5-.6-4.3-1.8-5.7-.9-.9-1.9-1.3-3.1-1.3H42.9l1.6-5.3h14.3c3.4 0 6.1 1.4 8 4.2 1.6 2.4 2.5 5.2 2.5 8.4 0 3.4-.9 6.3-2.8 8.6-1.9 2.4-4.5 3.6-7.8 3.6H42.9V51.9z", fill: "#00DF00" }))));
+            React__default['default'].createElement("path", { fill: "#AA00C1", d: "M30.3,20.7c4.3,0,8.6,0,12.9,0c0.7,0,1.1,0.3,1.5,0.8c1.4,1.8,2.8,3.6,4.1,5.5c0.8,1,1.5,2.1,2.3,3.1\r\n          c1.6,2.1,3.2,4.2,4.8,6.3c1.4,1.9,2.9,3.8,4.3,5.7c1.3,1.8,2.7,3.6,4,5.4c0.7,0.9,1.4,1.7,2,2.6c0.3,0.4,0.5,0.1,0.7-0.1\r\n          c0.4-0.5,0.8-1,1.1-1.5c1.4-1.7,2.6-3.5,4-5.3c1.3-1.7,2.6-3.4,3.9-5.1c0.7-1,1.5-1.9,2.2-2.9c1.6-2.2,3.3-4.3,4.9-6.5\r\n          c0.2-0.3,0.8-0.8,0.6-1c-0.2-0.4-0.8-0.1-1.2-0.1c-2.5,0-5.1,0-7.6,0c-0.7,0-1.2,0.3-1.6,0.9c-1.4,1.8-2.7,3.7-4.1,5.5\r\n          c-1.4,1.9-2.8,3.8-4.3,5.6c-0.4,0.5-0.9,1.1-1.3,1.7c-0.2,0.3-0.4,0.3-0.6,0c-0.9-1.2-1.8-2.4-2.7-3.7c-0.3-0.5-0.7-0.8-1-1.3\r\n          c-0.2-0.3-0.2-0.5,0-0.9c1-1.3,2-2.6,3-3.9c0.9-1.2,1.8-2.4,2.8-3.7c1.4-1.8,2.8-3.6,4.1-5.4c0,0,0.1-0.1,0.1-0.1\r\n          c0.5-1.3,1.6-1.4,2.8-1.4c8.3,0,16.5,0,24.8,0c0.2,0,0.3,0,0.5,0c0.4,0,0.4,0.2,0.2,0.5c-0.8,1-1.5,2.1-2.4,3.1\r\n          c-0.5,0.6-1,1.3-1.5,1.9c-1.4,1.8-2.7,3.6-4,5.4c-1.2,1.5-2.3,3-3.4,4.6c-1.5,1.9-3,3.9-4.5,5.9c-1.5,2-3,3.9-4.5,5.9\r\n          c-1.9,2.5-3.8,5-5.7,7.5c-0.6,0.8-0.6,0.8,0.1,1.8c1.3,1.7,2.6,3.5,3.9,5.2c1.4,1.9,2.8,3.7,4.3,5.6c1.6,2.1,3.2,4.3,4.8,6.5\r\n          c1.1,1.4,2.2,2.9,3.3,4.3c1.6,2.1,3.3,4.2,4.9,6.3c1,1.3,1.9,2.6,2.9,3.9c0.5,0.7,1.1,1.4,1.6,2.1c0.1,0.1,0.3,0.3,0.2,0.5\r\n          c-0.1,0.2-0.3,0.2-0.5,0.2c-0.6,0-1.1,0-1.7,0c-8,0-16,0-24,0c-0.8,0-1.3-0.3-1.8-1c-1.3-1.8-2.7-3.5-4-5.3c-0.8-1-1.5-2.1-2.3-3.1\r\n          c-1.2-1.6-2.4-3.2-3.6-4.8c-0.4-0.5-0.5-1,0-1.5c1.2-1.6,2.4-3.1,3.6-4.7c0.2-0.3,0.4-0.2,0.6,0c1.3,1.8,2.6,3.5,3.9,5.3\r\n          c1.3,1.7,2.6,3.4,3.9,5c0.6,0.8,1.2,1.6,1.8,2.4c0.5,0.6,1,1,1.8,1c2.6,0,5.2,0,7.8,0c0.2,0,0.4,0,0.6,0c0.3-0.1,0.4-0.2,0.1-0.5\r\n          c-1.4-1.8-2.7-3.6-4-5.3c-1.7-2.2-3.4-4.4-5.1-6.7c-1.3-1.7-2.6-3.5-3.9-5.3c-1.2-1.5-2.3-3.1-3.5-4.6c-0.4-0.5-0.5-0.5-1,0\r\n          c-1.3,1.7-2.6,3.4-3.9,5.2c-0.9,1.2-1.8,2.4-2.7,3.6c-1.4,1.8-2.8,3.6-4.1,5.4c-0.9,1.2-1.8,2.4-2.7,3.6c-1.4,1.8-2.7,3.6-4.1,5.4\r\n          c-0.9,1.2-1.8,2.4-2.7,3.7c-0.5,0.6-0.9,1.2-1.4,1.8c-0.3,0.5-0.8,0.5-1.2,0.5c-4,0-8,0-12,0c-4.5,0-9.1,0-13.6,0\r\n          c-0.2,0-0.4,0-0.6,0c-0.3,0-0.4-0.2-0.2-0.5c0.9-1.1,1.7-2.2,2.6-3.3c0.5-0.6,0.9-1.3,1.4-1.9c1.9-2.4,3.6-4.8,5.4-7.1\r\n          c1.4-1.8,2.7-3.7,4.1-5.5c1.3-1.7,2.6-3.4,3.9-5.1c1-1.3,1.9-2.5,2.8-3.8c1.3-1.7,2.5-3.3,3.8-4.9c0.8-1,1.6-2.1,2.4-3.1\r\n          c0.2-0.2,0.1-0.4-0.1-0.6c-1.5-1.9-2.9-3.9-4.4-5.8c-1.9-2.5-3.8-5-5.7-7.5c-1.4-1.9-3-3.9-4.4-5.8c-1.9-2.5-3.8-5-5.7-7.5\r\n          c-1.5-1.9-3-3.9-4.5-5.9C18,22.7,17.6,22,17,21.4c-0.1-0.1-0.3-0.3-0.2-0.5c0.1-0.3,0.4-0.1,0.5-0.2C21.6,20.7,25.9,20.7,30.3,20.7\r\n          z M35.5,27.6c-1.4,0-2.9,0-4.3,0c-0.2,0-0.4-0.1-0.5,0.1c-0.1,0.2,0.1,0.3,0.2,0.5c0.5,0.6,0.9,1.3,1.4,1.9\r\n          c0.9,1.2,1.8,2.4,2.8,3.7c1.4,1.8,2.7,3.6,4.1,5.4c0.9,1.2,1.8,2.4,2.7,3.6c0.9,1.2,1.9,2.4,2.8,3.7c0.9,1.2,1.8,2.4,2.7,3.6\r\n          c1.4,1.9,2.9,3.8,4.3,5.7c0.3,0.4,0.4,0.7,0,1.2c-0.3,0.4-0.6,0.8-0.9,1.2c-1.5,2-3,4-4.5,6c-1.5,2-3,3.9-4.5,5.9\r\n          c-1.9,2.5-3.8,5.1-5.7,7.6c-1.8,2.3-3.5,4.7-5.3,7.1c-0.3,0.4-0.1,0.5,0.2,0.5c0.2,0,0.4,0,0.6,0c2.5,0,5.1,0,7.7,0\r\n          c0.8,0,1.4-0.3,1.8-1c1.9-2.5,3.8-5,5.6-7.5c1.1-1.5,2.3-3,3.4-4.5c1.9-2.5,3.7-4.9,5.6-7.4c1.4-1.8,2.7-3.6,4-5.4\r\n          c0.5-0.6,0.9-1.3,1.5-1.9c0.9-1,0.9-1.4,0-2.5c-1-1.2-1.9-2.4-2.8-3.6c-1-1.3-1.9-2.6-2.9-3.9c-1.3-1.7-2.7-3.4-4-5.2\r\n          c-1-1.3-1.9-2.5-2.8-3.8c-1.6-2.2-3.3-4.3-5-6.5c-1-1.3-1.9-2.6-2.9-3.9c-0.4-0.5-0.8-0.7-1.4-0.7C38.2,27.6,36.9,27.6,35.5,27.6z" }))));
 };
 
 var Icon$1f = function (props) {
@@ -2086,7 +2076,7 @@ var useOnClickOutside = function (ref, handler) {
             document.removeEventListener("mousedown", listener);
             document.removeEventListener("touchstart", listener);
         };
-    },
+    }, 
     // It's worth noting that because passed in handler is a new ...
     // ... function on every render that will cause this effect ...
     // ... callback/cleanup to run every render. It's not a big deal ...
@@ -3830,7 +3820,7 @@ var sortDataInOrder = function (data, columns) {
 };
 var makeRender = function (
 // eslint-disable-next-line
-value,
+value, 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 render, row) {
     return render ? function () { return render({ row: row, value: value }); } : function () { return value; };
@@ -4852,17 +4842,17 @@ var BottomNav = function (_a) {
 
 var socials = [
     {
-      label: "Twitter",
-      icon: "Twitter",
-      href: "https://twitter.com/DexriumExchange",
+        label: "Twitter",
+        icon: "Twitter",
+        href: "https://twitter.com/DexriumExchange",
     },
     {
-      label: "Telegram",
-      icon: "Telegram",
-      items: [
-        {
-          label: "English",
-          href: "https://t.me/Dexrium",
+        label: "Telegram",
+        icon: "Telegram",
+        items: [
+            {
+                label: "English",
+                href: "https://t.me/Dexrium",
             },
             //{
             //  label: "Bahasa Indonesia",
@@ -4912,21 +4902,19 @@ var socials = [
             //  label: "Whale Alert",
             //    href: "https://t.me/PancakeSwapWhales",
             //  },
-          ],
-        },
-
-        {
-          label: "Github",
-          icon: "Github",
-          href: "https://github.com/Dexrium",
-        },
-        {
-          label: "Discord",
-          icon: "Discord",
-          href: "https://discord.gg/",
-        },
-      ];
-
+        ],
+    },
+    {
+        label: "Github",
+        icon: "Github",
+        href: "https://github.com/Dexrium",
+    },
+    {
+        label: "Discord",
+        icon: "Discord",
+        href: "https://discord.gg/",
+    },
+];
 __spreadArray([], Array(20)).map(function (_, i) { return ({
     code: "en" + i,
     language: "English" + i,
@@ -4979,7 +4967,7 @@ var templateObject_1$8;
 
 var LangSelector = function (_a) {
     var currentLang = _a.currentLang, langs = _a.langs, color = _a.color, setLang = _a.setLang, _b = _a.dropdownPosition, dropdownPosition = _b === void 0 ? "bottom" : _b, _c = _a.buttonScale, buttonScale = _c === void 0 ? "md" : _c, _d = _a.hideLanguage, hideLanguage = _d === void 0 ? false : _d;
-    return (React__default['default'].createElement(Dropdown, { position: dropdownPosition, target: React__default['default'].createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default['default'].createElement(Icon$1m, { color: color, width: "24px" }) }, !hideLanguage && React__default['default'].createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); },
+    return (React__default['default'].createElement(Dropdown, { position: dropdownPosition, target: React__default['default'].createElement(Button, { scale: buttonScale, variant: "text", startIcon: React__default['default'].createElement(Icon$1m, { color: color, width: "24px" }) }, !hideLanguage && React__default['default'].createElement(Text, { color: color }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React__default['default'].createElement(MenuButton, { key: lang.locale, fullWidth: true, onClick: function () { return setLang(lang); }, 
         // Safari fix
         style: { minHeight: "32px", height: "auto" } }, lang.language)); })));
 };
