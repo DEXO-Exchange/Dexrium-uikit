@@ -426,7 +426,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c69 {
-  color: #1FC7D4;
+  color: #1289D4;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -434,7 +434,7 @@ exports[`renders correctly 1`] = `
 }
 
 .c73 {
-  color: #1FC7D4;
+  color: #1289D4;
   font-size: 16px;
   font-weight: 600;
   line-height: 1.5;
@@ -773,7 +773,7 @@ exports[`renders correctly 1`] = `
   font-size: 12px;
   padding: 0 8px;
   background-color: transparent;
-  color: #1FC7D4;
+  color: #1289D4;
   box-shadow: none;
 }
 
@@ -830,7 +830,7 @@ exports[`renders correctly 1`] = `
   height: 48px;
   padding: 0 24px;
   background-color: transparent;
-  color: #1FC7D4;
+  color: #1289D4;
   box-shadow: none;
   width: sm;
   height: sm;
@@ -889,7 +889,7 @@ exports[`renders correctly 1`] = `
   height: 48px;
   padding: 0 24px;
   background-color: transparent;
-  color: #1FC7D4;
+  color: #1289D4;
   box-shadow: none;
 }
 
@@ -945,7 +945,7 @@ exports[`renders correctly 1`] = `
   transition: background-color 0.2s,opacity 0.2s;
   height: 32px;
   padding: 0 16px;
-  background-color: #1FC7D4;
+  background-color: #1289D4;
   color: white;
 }
 
