@@ -1880,7 +1880,7 @@ exports[`renders correctly 1`] = `
           >
             <a
               class="c27"
-              href="https://ico.dexrium.exchange/"
+              href="https://ico.dexo.exchange/"
               target="_blank"
             >
               <svg
@@ -3238,7 +3238,7 @@ exports[`renders correctly 1`] = `
                 >
                   <a
                     class="c27"
-                    href="https://ico.dexrium.exchange/"
+                    href="https://ico.dexo.exchange/"
                     target="_blank"
                   >
                     <svg
@@ -3393,7 +3393,7 @@ exports[`renders correctly 1`] = `
                 </div>
                 <a
                   class="c93"
-                  href="https://ico.dexrium.exchange/"
+                  href="https://ico.dexo.exchange/"
                   scale="sm"
                   target="_blank"
                 >

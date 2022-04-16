@@ -26,7 +26,7 @@ const PriceLink = styled.a`
 const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href="https://ico.dexrium.exchange/"
+      href="https://ico.dexo.exchange/"
       target="_blank"
     >
       <LogoIcon width="24px" mr="8px" />
