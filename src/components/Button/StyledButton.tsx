@@ -59,7 +59,9 @@ const StyledButton = styled.button<BaseButtonProps>`
   opacity: ${getOpacity};
   outline: 0;
   transition: background-color 0.2s, opacity 0.2s;
+  background-image: linear-gradient(93.96deg,#E05FBB 0.76%,#4250F4 100.57%);
 
+  
   &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
     opacity: 0.65;
   }
