@@ -59,14 +59,19 @@ export type Colors = {
   backgroundDisabled: string;
   backgroundAlt: string;
   backgroundAlt2: string;
+  backgroundBlue:string;
   text: string;
   textDisabled: string;
   textSubtle: string;
   disabled: string;
-
+  grey: string;
+  violet: string;
+  wallet: string;
+  wallethover: string;
   // Gradients
   gradients: Gradients;
-
+  darkBlack: string;
+  white: string;
   // Additional colors
   binance: string;
   overlay: string;

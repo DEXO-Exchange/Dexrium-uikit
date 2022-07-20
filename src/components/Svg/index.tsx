@@ -146,6 +146,14 @@ export { default as WalletConnectIcon } from "./Icons/WalletConnect";
 export { default as WalletFilledIcon } from "./Icons/WalletFilled";
 export { default as WalletIcon } from "./Icons/Wallet";
 export { default as WarningIcon } from "./Icons/Warning";
+export { default as WatchIcon } from "./Icons/Watch";
+export { default as SettingIcon } from "./Icons/Setting";
+export { default as CardViewDexoIcon } from "./Icons/CardViewDexo";
+export { default as ListViewDexoIcon } from "./Icons/ListViewDexo";
+export { default as SearchDexoIcon } from "./Icons/SearchDexo";
+
+
+
 
 export { default as Svg } from "./Svg";
 export type { SvgProps } from "./types";

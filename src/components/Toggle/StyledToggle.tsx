@@ -8,8 +8,8 @@ const scaleKeyValues = {
     handleLeft: "2px",
     handleTop: "2px",
     checkedLeft: "calc(100% - 18px)",
-    toggleHeight: "20px",
-    toggleWidth: "36px",
+    toggleHeight: "32px",
+    toggleWidth: "54px",
   },
   md: {
     handleHeight: "26px",
@@ -69,6 +69,7 @@ export const Input = styled.input<InputProps>`
   &:hover + ${Handle}:not(:disabled):not(:checked) {
     box-shadow: ${({ theme }) => theme.shadows.focus};
   }
+  color: ${({ theme }) =>  theme.colors.white};
 `;
 
 const StyledToggle = styled.div<StyleToggleProps>`

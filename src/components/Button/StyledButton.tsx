@@ -43,7 +43,7 @@ const getOpacity = ({ $isLoading = false }: TransientButtonProps) => {
   return $isLoading ? ".5" : "1";
 };
 
-const StyledButton = styled.button<BaseButtonProps>`
+/*  const StyledButton = styled.button<BaseButtonProps>`
   align-items: center;
   border: 0;
   border-radius: 16px;
@@ -80,6 +80,40 @@ const StyledButton = styled.button<BaseButtonProps>`
   })}
   ${layout}
   ${space}
-`;
+`;  */
+
+
+
+  const StyledButton = styled.button<BaseButtonProps>`
+  white-space: nowrap;
+  border-radius: 10px;
+  padding: 12px 20px;
+  border: unset;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in;
+  cursor: pointer;
+
+  &:hover:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled):not(:active) {
+    opacity: 0.65;
+  }
+
+  &:active:not(:disabled):not(.pancake-button--disabled):not(.pancake-button--disabled) {
+    opacity: 0.85;
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+
+  ${getDisabledStyles}
+  ${variant({
+    prop: "scale",
+    variants: scaleVariants,
+  })}
+  ${variant({
+    variants: styleVariants,
+  })}
+  ${layout}
+  ${space}
+`;  
+
 
 export default StyledButton;

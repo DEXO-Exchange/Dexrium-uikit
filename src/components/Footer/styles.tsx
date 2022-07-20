@@ -4,7 +4,8 @@ import { Box, Flex } from "../Box";
 import SocialLinks from "./Components/SocialLinks";
 
 export const StyledFooter = styled(Flex)`
-  background: ${darkColors.backgroundAlt};
+  background: ${darkColors.backgroundBlue};
+  border-top: 1px solid ${darkColors.backgroundBlue};
 `;
 
 export const StyledList = styled.ul`
@@ -22,7 +23,7 @@ export const StyledListItem = styled.li`
   text-transform: capitalize;
 
   &:first-child {
-    color: ${darkColors.secondary};
+    color: ${darkColors.text};
     font-weight: 600;
     text-transform: uppercase;
   }
@@ -49,9 +50,39 @@ export const StyledToolsContainer = styled(Flex)`
 `;
 
 export const StyledSocialLinks = styled(SocialLinks)`
-  border-bottom: 1px solid ${darkColors.cardBorder};
+
+  border-bottom: 0px solid ${darkColors.cardBorder};
 `;
 
 export const StyledText = styled.span`
   color: ${darkColors.text};
 `;
+
+
+export const StyledParagraph = styled.p`
+  color: ${darkColors.text};
+  font-size: 16px;  
+  font-weight: 400;
+
+`;
+
+
+export const ParagraphWrapper = styled.span`
+    margin-top: 60px;
+    margin-right: 500px;
+`;
+
+
+export const StyledListItemNew = styled.li`
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+
+  &:first-child {
+    color: ${darkColors.text};
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+`;
+
+

@@ -8,6 +8,10 @@ export const baseColors = {
   secondary: "#7645D9",
   success: "#31D0AA",
   warning: "#FFB237",
+  wallet:  "linear-gradient(90deg, #c561ff 0%, #5533ff 100%)",
+  wallethover: "linear-gradient(90deg, #c561ff98 0%, #4422ec 100%)",
+  darkBlack: "#1b234a",
+  white: "#ffffff",
 };
 
 export const additionalColors = {
@@ -25,6 +29,7 @@ export const lightColors: Colors = {
   backgroundDisabled: "#E9EAEB",
   backgroundAlt: "#FFFFFF",
   backgroundAlt2: "rgba(255, 255, 255, 0.7)",
+  backgroundBlue:"#8A2BE2",
   cardBorder: "#E7E3EB",
   contrast: "#191326",
   dropdown: "#F6F6F6",
@@ -37,6 +42,8 @@ export const lightColors: Colors = {
   textDisabled: "#BDC2C4",
   textSubtle: "#7A6EAA",
   disabled: "#E9EAEB",
+  grey: "#8f9bb7",
+  violet: "#7b61ff",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
     inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
@@ -56,6 +63,7 @@ export const darkColors: Colors = {
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#27262c",
   backgroundAlt2: "rgba(39, 38, 44, 0.7)",
+  backgroundBlue:"#060b27",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
   dropdown: "#1E1D20",
@@ -69,6 +77,8 @@ export const darkColors: Colors = {
   textDisabled: "#666171",
   textSubtle: "#B8ADD2",
   disabled: "#524B63",
+  grey: "#8f9bb7",
+  violet: "#7b61ff",
   gradients: {
     // bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     bubblegum: "#06071C",

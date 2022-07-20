@@ -29,8 +29,18 @@ const StyledNav = styled.nav`
   border-bottom: 1px solid ${({ theme }) => theme.colors.cardBorder};
   transform: translate3d(0, 0, 0);
 
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 300px;
+  padding-right: 86px;
+`;
+
+const StyledLogodev = styled.div` 
+  padding-left: -200px;
+  margin-top : 10px;
+`;
+
+
+const StyledMenudev = styled.div` 
+  padding-left: 300px;
 `;
 
 const FixedContainer = styled.div<{ showMenu: boolean; height: number }>`
@@ -53,6 +63,11 @@ const TopBannerContainer = styled.div<{ height: number }>`
 const BodyWrapper = styled(Box)`
   position: relative;
   display: flex;
+`;
+
+
+export const StyledLine = styled.hr`
+  color: ${({ theme }) => theme.nav.background};
 `;
 
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
@@ -129,13 +144,13 @@ const Menu: React.FC<NavProps> = ({
         {banner && <TopBannerContainer height={topBannerHeight}>{banner}</TopBannerContainer>}
         <StyledNav>
           <Flex>
-            <Logo isDark={isDark} href={homeLink?.href ?? "/"} />
-            {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />}
+          <StyledLogodev>  <Logo isDark={isDark} href={homeLink?.href ?? "/"} /> </StyledLogodev>
+          <StyledMenudev>   {!isMobile && <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="48px" />} </StyledMenudev>
           </Flex>
           <Flex alignItems="center" height="100%">
             {!isMobile && (
               <Box mr="12px">
-                <CakePrice cakePriceUsd={cakePriceUsd} />
+              {/*  <CakePrice cakePriceUsd={cakePriceUsd} />  */}
               </Box>
             )}
             <Box mt="4px">
@@ -148,7 +163,7 @@ const Menu: React.FC<NavProps> = ({
                 hideLanguage
               />
             </Box>
-            {globalMenu} {userMenu}
+           {globalMenu}   {userMenu}  
           </Flex>
         </StyledNav>
       </FixedContainer>
@@ -169,6 +184,7 @@ const Menu: React.FC<NavProps> = ({
       <BodyWrapper mt={!subLinks ? `${totalTopMenuHeight + 1}px` : "0"}>
         <Inner isPushed={false} showMenu={showMenu}>
           {children}
+         {/* <StyledLine />  */}
           <Footer
             items={footerLinks}
             isDark={isDark}

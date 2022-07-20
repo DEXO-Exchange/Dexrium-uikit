@@ -55,4 +55,8 @@ export declare const styleVariants: {
         color: string;
         boxShadow: string;
     };
+    dexo: {
+        background: string;
+        color: string;
+    };
 };

@@ -7,6 +7,10 @@ export declare const baseColors: {
     secondary: string;
     success: string;
     warning: string;
+    wallet: string;
+    wallethover: string;
+    darkBlack: string;
+    white: string;
 };
 export declare const additionalColors: {
     binance: string;

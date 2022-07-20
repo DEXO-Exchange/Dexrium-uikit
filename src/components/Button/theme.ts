@@ -58,4 +58,8 @@ export const styleVariants = {
     color: "textSubtle",
     boxShadow: "none",
   },
+  [variants.DEXO]: {
+  background: "linear-gradient(90deg, #c561ff 0%, #5533ff 100%)",
+  color: "white",
+  },
 };
